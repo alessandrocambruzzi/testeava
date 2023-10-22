@@ -1,7 +1,9 @@
 import Banner  from "./components/Banner";
-import Courses from "./components/Courses";
+import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Trending from  "./components/Trending";
+import Latest from "./components/Latest";
 
 
 export default function Home() {
@@ -9,7 +11,9 @@ export default function Home() {
     <>
       <Header />
       <Banner />
-      <Courses />
+      <Categories />
+      <Trending />
+      <Latest />
       <Footer />
 
     </>
